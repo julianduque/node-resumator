@@ -1,4 +1,4 @@
-# Resumator
+# Resumator [![Build Status](https://travis-ci.org/julianduque/node-resumator.svg)](https://travis-ci.org/julianduque/node-resumator)
 
 Resumator Node.js API Client
 
