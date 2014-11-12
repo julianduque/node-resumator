@@ -1,0 +1,23 @@
+{
+  "name": "resumator",
+  "version": "1.0.0",
+  "description": "The Resumator API Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/lib/*-test.js | faucet"
+  },
+  "keywords": [
+    "resumator"
+  ],
+  "author": "Julian Duque <julianduquej@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "nock": "^0.48.2",
+    "tape": "^3.0.2"
+  },
+  "dependencies": {
+    "defaults": "^1.0.0",
+    "request": "^2.48.0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prospect_01",
+    "first_name": "Prospect",
+    "last_name": "Candidate",
+    "apply_date": "2014-11-11",
+    "job_id": "job_01",
+    "job_title": "Awesome Developer"
+  },
+  {
+    "id": "prospect_02",
+    "first_name": "Applicant",
+    "last_name": "Jones",
+    "apply_date": "2014-11-11",
+    "job_id": "job_01",
+    "job_title": "Awesome Developer"
+  },
+  {
+    "id": "prospect_03",
+    "first_name": "Applicant",
+    "last_name": "James",
+    "apply_date": "2014-11-11",
+    "job_id": "job_01",
+    "job_title": "Awesome Developer"
+  }
+]
