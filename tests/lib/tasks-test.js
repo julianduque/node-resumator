@@ -1,11 +1,8 @@
 'use strict';
 
 var test   = require('tape');
-var clone  = require('clone');
-var util   = require('util');
 var helper = require('../helper');
 var client = helper.createClient();
-var noop   = function () {};
 
 test('tasks', function (t) {
   t.equal(typeof client.tasks, 'object', 'client.tasks must be an object');
