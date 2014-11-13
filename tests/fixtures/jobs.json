@@ -1,0 +1,20 @@
+[
+  {
+    "id": "job_01",
+    "title": "job",
+    "hiring_lead_id": "usr_01",
+    "description": "A new job"
+  },
+  {
+    "id": "job_02",
+    "title": "job",
+    "hiring_lead_id": "usr_01",
+    "description": "A new job"
+  },
+  {
+    "id": "job_03",
+    "title": "a job",
+    "hiring_lead_id": "usr_01",
+    "description": "A new job"
+  }
+]

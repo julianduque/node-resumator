@@ -103,8 +103,22 @@ Not implemented yet
 
 ### Jobs
 
+Get job by id
+
+``` js
+client.jobs.get(id, callback);
 ```
-Not implemented yet
+
+Get jobs list
+
+``` js
+client.jobs.list([options], callback);
+```
+
+Save a job
+
+``` js
+client.jobs.save(applicant, callback);
 ```
 
 ### Questionnaire
