@@ -65,6 +65,18 @@ client.applicants.save(applicant, callback);
 
 ### Contacts
 
+Get contact by id
+
+``` js
+client.contacts.get(id, callback);
+```
+
+Get contacts list
+
+``` js
+client.contacts.list([options], callback);
+```
+
 ### Files
 
 ### Jobs
