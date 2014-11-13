@@ -27,6 +27,8 @@ client.applicants.save({
 ```
 ## API
 
+You can check the official Resumator API in the following url: [http://www.resumatorapi.com/v1/](http://www.resumatorapi.com/v1/)
+
 ### Activities
 
 Get activity by id
