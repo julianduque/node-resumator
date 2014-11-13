@@ -63,6 +63,24 @@ client.applicants.save(applicant, callback);
 
 ### Categories
 
+Get category by id
+
+``` js
+client.categories.get(id, callback);
+```
+
+Get categories list
+
+``` js
+client.categories.list([options], callback);
+```
+
+Save a category
+
+``` js
+client.categories.save(applicant, callback);
+```
+
 ### Contacts
 
 Get contact by id

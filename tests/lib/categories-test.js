@@ -72,8 +72,8 @@ test('categories#list with params', function (t) {
   t.plan(3);
 
   var categories = helper.loadFixture('categories').filter(function (a) {
+    return a.name === 'category';
   });
-  return a.name === 'category';
 
   helper
     .api('GET', 'categories', { name: 'category' })
@@ -88,7 +88,7 @@ test('categories#list with params', function (t) {
 });
 
 test('categories#save', function (t) {
-  t.plan(9);
+  t.plan(7);
 
   var category = {
     name: 'category',
@@ -109,7 +109,7 @@ test('categories#save', function (t) {
   checkRequired('name');
 
   function checkRequired(property) {
-    t.throws(function2tion () {
+    t.throws(function () {
       var a = clone(category);
       delete a[property];
       client.categories.save(a, noop);
