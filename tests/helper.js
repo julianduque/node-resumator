@@ -23,7 +23,12 @@ helper.api = function api(method, route, params) {
     apikey: apiKey
   });
 
-  var uri = util.format('/%s?%s', route, qs.stringify(params));
+  var uri = util.format('/%s', route);
 
-  return nock(endpoint).intercept(uri, method);
+  if (method === 'GET') {
+    uri = util.format('/%s?%s', route, qs.stringify(params));
+    params = undefined;
+  }
+
+  return nock(endpoint).intercept(uri, method, params);
 };
