@@ -73,7 +73,32 @@ client.applicants.save(applicant, callback);
 
 ### Tasks
 
+Get task by id
+
+``` js
+client.tasks.get(id, callback);
+```
+
+Get tasks list
+
+``` js
+client.tasks.list([options], callback);
+```
+
 ### Users
+
+Get user by id
+
+``` js
+client.users.get(id, callback);
+```
+
+Get users list
+
+``` js
+client.users.list([options], callback);
+```
+
 
 ## The MIT License (MIT)
 
