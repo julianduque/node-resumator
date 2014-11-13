@@ -97,9 +97,27 @@ client.contacts.list([options], callback);
 
 ### Files
 
+```
+Not implemented yet
+```
+
 ### Jobs
 
+```
+Not implemented yet
+```
+
 ### Questionnaire
+
+```
+Not implemented yet
+```
+
+### Notes
+
+```
+Not implemented yet
+```
 
 ### Tasks
 
