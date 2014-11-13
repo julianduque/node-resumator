@@ -1,0 +1,20 @@
+[
+  { 
+    "id": "contact_01",
+    "first_name": "Contact",
+    "last_name": "User",
+    "date_created": "2014-11-11"
+  },
+  { 
+    "id": "contact_02",
+    "first_name": "Contact",
+    "last_name": "User",
+    "date_created": "2014-11-11"
+  },
+  { 
+    "id": "contact_03",
+    "first_name": "Contact",
+    "last_name": "User",
+    "date_created": "2014-11-12"
+  }
+]
