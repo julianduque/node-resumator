@@ -8,7 +8,7 @@ var client = helper.createClient();
 var noop   = function () {};
 
 test('activities', function (t) {
-  t.equal(typeof client.activities, 'object', 'client.activites must be an object');
+  t.equal(typeof client.activities, 'object', 'client.activities must be an object');
   t.end();
 });
 
