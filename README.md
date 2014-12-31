@@ -131,8 +131,10 @@ Not implemented yet
 
 ### Notes
 
-```
-Not implemented yet
+Save a note
+
+``` js
+client.notes.save(note, callback);
 ```
 
 ### Tasks
